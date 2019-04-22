@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AutoIQ</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__content content">
+        <div class="header__item">
+          <a href="index.html">
+            <div class="header__logo logo">
+              <p class="logo__text">AUTO<span class="logo__big_text">IQ</span></p>
+              <p class="logo__small_text">Автосервис в Пскове</p>
+            </div>
+          </a>
+        </div>
+        <div class="header__item">
+          <div class="header__social social">
+            <a href="#"><img src="img/social/vk.png" alt="vk"></a>
+            <a href="#"><img src="img/social/yt.png" alt="yt"></a>
+            <a href="#"><img src="img/social/inst.png" alt="inst"></a>
+          </div>
+        </div>
+        <div class="header__item">
+          <div class="address">
+            <p class="address__text">Адрес: Псков, ул. Советская, 51</p>
+            <p class="address__text">(Въезд с ул. Калинина 26)</p>
+          </div>
+        </div>
+        <div class="header__item">
+          <div class="phones">
+            <p class="phones__stat"><a href="tel:+78112606095">8 (8112) 60-60-95</a></p>
+            <p class="phones__mobile"><a href="tel:+79212186565">8 (921) 218-65-65</a></p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="header__menu menu">
+        <label class="burger" for="burger"></label>
+        <input id="burger" type="checkbox">
+        <a class="menu__item" href="#services">Услуги</a>
+        <a class="menu__item" href="#masters">Наши мастера</a>
+        <a class="menu__item" href="#signup">Запись</a>
+        <a class="menu__item" href="#advantages">Преимущества</a>
+
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="services" id="services">
+        <div class="services__content">
+          <!--Инлайн стили для легкого изменения картинок в будущем-->
+          <a style="background-image: url(img/services/kyzrem.png);" href="#" class="services__item">
+            <h3 class="services__text">Кузовной ремонт</h3>
+            <div class="services__dark"></div>
+          </a>
+          <a style="background-image: url(img/services/himchistka.png);" href="#" class="services__item">
+            <h3 class="services__text">Химчистка салона</h3>
+            <div class="services__dark"></div>
+          </a>
+          <a style="background-image: url(img/services/dvig.png);" href="#" class="services__item">
+            <h3 class="services__text">Ремонт двигателя</h3>
+            <div class="services__dark"></div>
+          </a>
+          <a style="background-image: url(img/services/diag.png);" href="#" class="services__item">
+            <h3 class="services__text">Компьютерная диагностика</h3>
+            <div class="services__dark"></div>
+          </a>
+          <a style="background-image: url(img/services/elektr.png);" href="#" class="services__item">
+            <h3 class="services__text">Автоэлектрика</h3>
+            <div class="services__dark"></div>
+          </a>
+          <a style="background-image: url(img/services/podveska.png);" href="#" class="services__item">
+            <h3 class="services__text">Ремонт подвески</h3>
+            <div class="services__dark"></div>
+          </a>
+          <a style="background-image: url(img/services/zamena.png);" href="#" class="services__item">
+            <h3 class="services__text">Замена стекол</h3>
+            <div class="services__dark"></div>
+          </a>
+          <a style="background-image: url(img/services/polir.png);" href="#" class="services__item">
+            <h3 class="services__text">Полировка</h3>
+            <div class="services__dark"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="masters" id="masters">
+        <p class="masters__logo">IQ</p>
+        <h2 class="masters__header">Наши мастера</h2>
+        <div class="masters__content">
+          <!-- Для расширения -- копировать блок с классом masters__item (без класса active) -->
+          <div class="masters__item active">
+            <div class="masters__preview">
+              <div class="circle"></div>
+              <div style="background-image: url(img/slider-masters/mechanic.png);" class="photo"></div>
+            </div>
+            <div class="masters__text">
+              <h3 class="masters__name">Петров Алексей</h3>
+              <p class="masters__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="masters__item">
+            <div class="masters__preview">
+              <div class="circle"></div>
+              <div style="background-image: url(img/slider-masters/mechanic2.png);" class="photo"></div>
+            </div>
+            <div class="masters__text">
+              <h3 class="masters__name">Иванов Иван</h3>
+              <p class="masters__about">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="masters__item">
+            <div class="masters__preview">
+              <div class="circle"></div>
+              <div style="background-image: url(img/slider-masters/mechanic3.png);" class="photo"></div>
+            </div>
+            <div class="masters__text">
+              <h3 class="masters__name">Афанасьев Афанасий</h3>
+              <p class="masters__about">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="master__arrows">
+          <div class="masters__left arrow" id="left"></div>
+          <div class="masters__right arrow" id="right"></div>
+        </div>
+      </div>
+
+      <div class="signup" id="signup">
+        <div class="signup__content">
+          <h2 class="signup__header">Записаться на ремонт</h2>
+          <form class="signup__form" action="">
+            <div class="signup__item">
+              <label class="signup__label label-light" for="name">Имя</label>
+              <input class="signup__name signup__input input-light" id="name" type="text" placeholder="Ваше имя">
+            </div>
+            <div class="signup__item">
+              <label class="signup__label label-light" for="surname">Фамилия</label>
+              <input class="signup__surname signup__input input-light" id="surname" type="text"
+                placeholder="Ваша фамилия">
+            </div>
+            <div class="signup__item">
+              <label class="signup__label label-light" for="phone">Телефон</label>
+              <input class="signup__phone signup__input input-light" id="phone" type="tel"
+                placeholder="+7 (  )__ __ __">
+            </div>
+            <div class="signup__item">
+              <input class="signup__submit signup__input" type="submit" value="Записаться на ремонт">
+            </div>
+          </form>
+        </div>
+        <div class="signup__gradient"></div>
+      </div>
+
+      <div class="advantages" id="advantages">
+        <h2 class="advantages__header">Почему именно мы</h2>
+        <div class="advantages__content">
+          <div class="advantages__item">
+            <div class="advantages__pic">
+              <img src="img/advantages/specialists.png" alt="adv_pic">
+            </div>
+            <h3 class="advantages__text">Опытные специалисты с 10 летним стажем</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__pic">
+              <img src="img/advantages/garanty.png" alt="adv_pic">
+            </div>
+            <h3 class="advantages__text">Гарантия на ремонт</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__pic">
+              <img src="img/advantages/remont.png" alt="adv_pic">
+            </div>
+            <h3 class="advantages__text">Запчасти для ремонта в наличии</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__pic">
+              <img src="img/advantages/place.png" alt="adv_pic">
+            </div>
+            <h3 class="advantages__text">Находимся в центре города</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__pic">
+              <img src="img/advantages/price.png" alt="adv_pic">
+            </div>
+            <h3 class="advantages__text">Цены ниже средних по городу</h3>
+          </div>
+          <div class="advantages__item">
+            <div class="advantages__pic">
+              <img src="img/advantages/equip.png" alt="adv_pic">
+            </div>
+            <h3 class="advantages__text">Современное оборудование</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="path">
+        <h2 class="path__header">Как проехать</h2>
+        <div class="path__content">
+          <div class="path__item">
+            <img class="path__pic" src="img/path/path-1.png" alt="">
+            <div class="path__toner"></div>
+            <h3 class="path__text">После моста 50-летия <br> октября поверните налево</h3>
+            <div class="path__arrow arrow-turn">
+              <img src="img/path/arrow-turn.png" alt="">
+            </div>
+          </div>
+          <div class="path__item">
+            <img class="path__pic" src="img/path/path-2.png" alt="">
+            <div class="path__toner"></div>
+            <h3 class="path__text">Пройдите <br> 400 мертров прямо</h3>
+            <div class="path__arrow arrow-up">
+              <img src="img/path/arrow-up.png" alt="">
+            </div>
+          </div>
+          <div class="path__item">
+            <img class="path__pic" src="img/path/path-3.png" alt="">
+            <div class="path__toner"></div>
+            <div class="path__logo logo">
+              <p class="logo__text">AUTO<span class="logo__big_text">IQ</span></p>
+            </div>
+            <div class="path__placeholder">
+              <img src="img/path/placeholder.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="signup signup-dark">
+        <div class="signup__content">
+          <h2 class="signup__header">Записаться на ремонт</h2>
+          <form class="signup__form" action="">
+            <div class="signup__item">
+              <label class="signup__label label-dark" for="name2">Имя</label>
+              <input class="signup__name signup__input input-dark" id="name2" type="text" placeholder="Ваше имя">
+            </div>
+            <div class="signup__item">
+              <label class="signup__label label-dark" for="surname2">Фамилия</label>
+              <input class="signup__surname signup__input input-dark" id="surname2" type="text"
+                placeholder="Ваша фамилия">
+            </div>
+            <div class="signup__item">
+              <label class="signup__label label-dark" for="phone2">Телефон</label>
+              <input class="signup__phone signup__input input-dark" id="phone2" type="tel"
+                placeholder="+7 (  )__ __ __">
+            </div>
+            <div class="signup__item">
+              <input class="signup__submit signup__input" type="submit" value="Записаться на ремонт">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__item">
+            <a href="index.html">
+              <div class="footer__logo logo">
+                <p class="logo__text">AUTO<span class="logo__big_text">IQ</span></p>
+                <p class="logo__small_text">Автосервис в Пскове</p>
+              </div>
+            </a>
+            <div class="footer__social social">
+              <a href="#"><img src="img/social/vk.png" alt="vk"></a>
+              <a href="#"><img src="img/social/yt.png" alt="yt"></a>
+              <a href="#"><img src="img/social/inst.png" alt="inst"></a>
+            </div>
+            <p class="copyright">&copy; 2019</p>
+          </div>
+          <div class="footer__item">
+            <div class="address">
+              <p class="address__text">Адрес: Псков, ул. Советская, 51</p>
+              <p class="address__text">(Въезд с ул. Калинина 26)</p>
+            </div>
+            <a class="footer__link" href="#">Политика конфиденциальности</a>
+          </div>
+          <div class="footer__item">
+            <div class="phones">
+              <p class="phones__stat"><a href="tel:+78112606095">8 (8112) 60-60-95</a></p>
+              <p class="phones__mobile"><a href="tel:+79212186565">8 (921) 218-65-65</a></p>
+            </div>
+            <a class="footer__link" href="#">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="js/slider.js"></script>
+</body>
+
+</html>
